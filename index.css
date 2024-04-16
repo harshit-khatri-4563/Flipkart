@@ -53,7 +53,15 @@ nav ul li a:hover {
     font-weight: bold;
 
 }
+.h2{
+    padding-top: 20px;
+    padding-left: 30px;
+    margin-top:10px;
 
+}
+.lines{
+    padding-top:10px;
+}
 .search {
     display: flex;
     align-items: center;
@@ -70,28 +78,31 @@ nav ul li a:hover {
 .slider{
     overflow: hidden;
     margin: 12px auto;
-    
-    
+}
+.slider img{
+    width: 100vw;
 }
 .card{
     background-color: lightcyan;
     max-width: 90vw;
     margin: auto;
-    
-   
 
 }
 .card-item{
     display: inline-flex;
     justify-content: center;
     flex-direction: column;
-    margin: 0px 10px;
-   
+    margin: 20px 10px;
+    width: 12.5%;
+    /* justify-items: in-between; */
+    justify-content: space-between;
+    padding-left: 3px;
 }
 
 .container {
     min-height: calc(100vh - 70px - 40px);
 }
+
 .flex-all-centre{
     display: flex;
     justify-content: center;
